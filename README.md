@@ -43,10 +43,10 @@ terraform destroy -auto-approve
 
 ## Config variables(optional)
 - instance_type
-> default is 2C2G `ecs.t6-c1m1.large`
+> default is 2C2G `ecs.c7.large`
 
 - vpc_cidr
 > default is `172.16.0.0/16`
 
 - region
-> default is `cn-shenzhen`
+> default is `cn-shanghai`
