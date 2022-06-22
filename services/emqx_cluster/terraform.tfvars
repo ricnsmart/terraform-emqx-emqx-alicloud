@@ -10,20 +10,20 @@ vpc_cidr = "172.16.0.0/16"
 ecs_vswitch_conf = [
   {
     "name" = "tf-vswitch-01",
-    "az"   = "cn-shenzhen-d",
+    "az"   = "cn-shanghai-d",
     "cidr" = "172.16.1.0/24"
     # "cidr" = "10.65.128.0/18"
   },
   {
     "name" = "tf-vswitch-02",
-    "az"   = "cn-shenzhen-e",
+    "az"   = "cn-shanghai-e",
     "cidr" = "172.16.2.0/24"
     # "cidr" = "10.65.192.0/18"
   }
 ]
 
 clb_cidr = "172.16.3.0/24"
-clb_az   = "cn-shenzhen-d"
+clb_az   = "cn-shanghai-d"
 
 ## security group
 
@@ -98,4 +98,4 @@ listener_http_ports = [
 ]
 
 
-emqx_package = "https://www.emqx.com/en/downloads/enterprise/4.4.3/emqx-ee-4.4.3-otp24.1.5-3-ubuntu20.04-amd64.zip"
+emqx_package = "https://www.emqx.com/en/downloads/broker/v4.4.4/emqx-4.4.4-otp24.1.5-3-ubuntu20.04-amd64.zip"

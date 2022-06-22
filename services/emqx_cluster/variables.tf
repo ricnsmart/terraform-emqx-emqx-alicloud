@@ -81,7 +81,7 @@ variable "image_id" {
 
 variable "instance_type" {
   type        = string
-  default     = "ecs.t6-c1m1.large"
+  default     = "ecs.c7.large"
   description = "instance type"
 }
 
